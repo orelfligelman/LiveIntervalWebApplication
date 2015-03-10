@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @quack.name %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @quack.title %>
+</p>
+
+<%= link_to 'Edit', edit_quack_path(@quack) %> |
+<%= link_to 'Back', quacks_path %>

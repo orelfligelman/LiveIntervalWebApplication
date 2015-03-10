@@ -1,0 +1,27 @@
+<h1>Listing quacks</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Title</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @quacks.each do |quack| %>
+      <tr>
+        <td><%= quack.name %></td>
+        <td><%= quack.title %></td>
+        <td><%= link_to 'Show', quack %></td>
+        <td><%= link_to 'Edit', edit_quack_path(quack) %></td>
+        <td><%= link_to 'Destroy', quack, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Quack', new_quack_path %>
