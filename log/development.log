@@ -107,3 +107,45 @@ Started GET "/" for 127.0.0.1 at 2015-03-10 13:46:43 -0400
   [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
 Processing by QuacksController#index as */*
 Completed 200 OK in 521595ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 14:00:05 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (/Users/adityanarayan/RubymineProjects/live_data_app /live_data_app/app/controllers/quacks_controller.rb:106: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/quacks_controller.rb:106: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (15.0ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (33.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 14:05:00 -0400
+
+SyntaxError (/Users/adityanarayan/RubymineProjects/live_data_app /live_data_app/app/controllers/quacks_controller.rb:94: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/quacks_controller.rb:94: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 14:05:58 -0400
+
+SyntaxError (/Users/adityanarayan/RubymineProjects/live_data_app /live_data_app/app/controllers/quacks_controller.rb:94: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/quacks_controller.rb:94: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/adityanarayan/.rvm/gems/ruby-2.1.0/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-03-10 14:06:46 -0400
+Processing by QuacksController#index as */*
+Completed   in 57590ms
